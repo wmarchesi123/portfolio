@@ -63,8 +63,6 @@ export const LinkOut = styled.a`
         transition: all 0.2s ease-in-out;
         color: #6d71f9;
     }
-
-    
 `
 
 export const ThinSpan = styled.span`
