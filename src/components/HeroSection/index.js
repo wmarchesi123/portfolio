@@ -32,7 +32,7 @@ const HeroSection = () => {
             </HeroTextContainer>
             
             <HeroImageContainer>
-                <HeroImage src="https://firebasestorage.googleapis.com/v0/b/william-marchesi.appspot.com/o/heroProfile.JPG?alt=media&token=25256a2f-a8cf-415f-a782-c5634547fef6" />
+                <HeroImage src="https://firebasestorage.googleapis.com/v0/b/william-marchesi.appspot.com/o/headshot.jpg?alt=media&token=a876b123-3315-4452-9f99-df8443d8e8ab" />
             </HeroImageContainer>
             
             <MobileHero>
@@ -41,7 +41,7 @@ const HeroSection = () => {
                 </HeroH1>
                 
                 <HeroImageContainerM>
-                    <HeroImageM src="https://firebasestorage.googleapis.com/v0/b/william-marchesi.appspot.com/o/heroProfile.JPG?alt=media&token=25256a2f-a8cf-415f-a782-c5634547fef6" />
+                    <HeroImageM src="https://firebasestorage.googleapis.com/v0/b/william-marchesi.appspot.com/o/headshot.jpg?alt=media&token=a876b123-3315-4452-9f99-df8443d8e8ab" />
                 </HeroImageContainerM>
 
                 <HeroBody>

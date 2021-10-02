@@ -10,6 +10,7 @@ export const FooterContainer = styled.div`
     display: grid;
     grid-gap: 1rem;
     grid-template-columns: repeat(3, 1fr);
+    padding: 0 5%;
 
     @media screen and (max-width: 768px) {
         grid-gap: 0rem;
