@@ -1,11 +1,13 @@
 import './App.css';
-import WorkInProgress from './components/WorkInProgress';
-import Navbar from './components/Navbar';
+import React from 'react';
 import { BrowserRouter as Router } from 'react-router-dom'
+import Home from './pages';
 
 function App() {
   return (
-    <WorkInProgress/>
+    <Router>
+      <Home />
+    </Router>
   );
 }
 
