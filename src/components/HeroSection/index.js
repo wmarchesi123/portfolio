@@ -27,7 +27,7 @@ const HeroSection = () => {
                     Hey, <ThinSpan>I'm Will!</ThinSpan>
                 </HeroH1>
                 <HeroBody>
-                A student in Boston, MA pursuing a Bachelor of Science in Computer Science from <LinkOut target="_blank" href="https://wit.edu/">Wentworth Institute of Technology;</LinkOut> minoring in Cybersecurity Management and Computer Networking.
+                    A student in Boston, MA pursuing a Bachelor of Science in Computer Science from <LinkOut target="_blank" href="https://wit.edu/">Wentworth Institute of Technology;</LinkOut> minoring in Cybersecurity Management and Computer Networking.
                 </HeroBody>
             </HeroTextContainer>
             
@@ -45,7 +45,7 @@ const HeroSection = () => {
                 </HeroImageContainerM>
 
                 <HeroBody>
-                A student in Boston, MA pursuing a Bachelor of Science in Computer Science from <LinkOut target="_blank" href="https://wit.edu/">Wentworth Institute of Technology;</LinkOut> minoring in Cybersecurity Management and Computer Networking.
+                    A student in Boston, MA pursuing a Bachelor of Science in Computer Science from <LinkOut target="_blank" href="https://wit.edu/">Wentworth Institute of Technology;</LinkOut> minoring in Cybersecurity Management and Computer Networking.
                 </HeroBody>
             </MobileHero>
 

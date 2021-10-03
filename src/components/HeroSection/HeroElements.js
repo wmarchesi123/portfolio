@@ -83,8 +83,8 @@ export const HeroBody = styled.p`
 export const HeroImageContainer = styled.div`
     border-radius: 5000px;
     background: #6d71f9;
-    width: 350px;
-    height: 350px;
+    width: 300px;
+    height: 300px;
     margin-right: 5%;
     margin-top: 8rem;
     margin-bottom: 8rem;

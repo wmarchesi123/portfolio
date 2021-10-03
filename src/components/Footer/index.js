@@ -29,7 +29,7 @@ const Footer = () => {
                 </FooterColumn>
             </FooterContainer>
             <FooterRibbon>
-                Site by William Marchesi | © 2021 | <FooterRibbonLinkOut target="_blank" src="https://github.com/wmarchesi123/portfolio">GitHub Repo</FooterRibbonLinkOut>
+                Site by William Marchesi | © 2021 | <FooterRibbonLinkOut target="_blank" href="https://github.com/wmarchesi123/portfolio">GitHub Repo</FooterRibbonLinkOut>
             </FooterRibbon>
         </>
     )
