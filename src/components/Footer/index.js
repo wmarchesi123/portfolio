@@ -1,5 +1,5 @@
 import React from 'react'
-import { FooterColumn, FooterContainer, FooterRibbonLinkOut, FooterRibbon, StampLogo, FooterLinkOut, FooterDetail, FooterLinkS, FooterLinkR, FooterSpacer } from './FooterElements'
+import { FooterColumn, FooterContainer, FooterRibbonLinkOut, FooterRibbon, StampLogo, FooterLinkOut, FooterDetail, FooterLinkS, FooterLinkR, FooterSpacer, DownloadIcon, LinkedInIcon, GitHubIcon, TwitterIcon } from './FooterElements'
 
 const Footer = () => {
     return (
@@ -13,19 +13,34 @@ const Footer = () => {
 
                 <FooterColumn>
                     <FooterSpacer />
-                    <FooterLinkS to="home" offset={-80}>Home</FooterLinkS>
-                    <FooterLinkS>Portfolio</FooterLinkS>
+                    <FooterLinkS to="home" offset={-80} smooth={true} duration={1000}>Home</FooterLinkS>
+                    <FooterLinkS to="about" offset={-80} smooth={true} duration={1000}>About</FooterLinkS>
+                    <FooterLinkS to="skills" offset={-80} smooth={true} duration={1000}>Skills</FooterLinkS>
+                    <FooterLinkS to="portfolio" offset={-80} smooth={true} duration={1000}>Portfolio</FooterLinkS>
                     <FooterLinkR>RVU Track (iOS)</FooterLinkR>
                     <FooterLinkR>Personal Website</FooterLinkR>
-                    <FooterLinkS>Resume</FooterLinkS>
-                    <FooterLinkS>Contact</FooterLinkS>
+                    <FooterLinkS to="experience" offset={-80} smooth={true} duration={1000}>Experience</FooterLinkS>
+                    <FooterLinkS to="contact" offset={-80} smooth={true} duration={1000}>Contact</FooterLinkS>
                 </FooterColumn>
 
                 <FooterColumn>
                     <FooterSpacer />
-                    <FooterLinkOut>LinkedIn</FooterLinkOut>
-                    <FooterLinkOut>GitHub</FooterLinkOut>
-                    <FooterLinkOut>Twitter</FooterLinkOut>
+                    <FooterLinkOut target="_blank" href="/">
+                        <DownloadIcon />
+                        Resume PDF Download
+                    </FooterLinkOut>
+                    <FooterLinkOut target="_blank" href="https://www.linkedin.com/in/williammarchesi/">
+                        <LinkedInIcon />
+                        LinkedIn
+                        </FooterLinkOut>
+                    <FooterLinkOut target="_blank" href="https://github.com/wmarchesi123">
+                        <GitHubIcon />
+                        GitHub
+                        </FooterLinkOut>
+                    <FooterLinkOut target="_blank" href="https://twitter.com/williammarchesi">
+                        <TwitterIcon />
+                        Twitter
+                        </FooterLinkOut>
                 </FooterColumn>
             </FooterContainer>
             <FooterRibbon>

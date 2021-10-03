@@ -4,7 +4,7 @@ export const AboutContainer = styled.div`
     background: #363755;
     display: flex;
     justify-content: space-between;
-    //align-items: center;
+    align-items: center;
     padding: 4rem 24px;
     width: 100%;
     position: relative;
@@ -13,10 +13,11 @@ export const AboutContainer = styled.div`
 
     @media screen and (max-width: 768px) {
         display: block;
+        padding: 0rem 24px;
     }
 `
 export const AboutTextContainer = styled.div`
-    width: 50%;
+    width: 45%;
     margin-left: 5%;
     z-index: 99;
     position: relative;
@@ -32,14 +33,14 @@ export const AboutH1 = styled.h1`
     color: #fff;
     font-size: 32px;
     font-family: 'M PLUS Rounded 1c', sans-serif;
-    font-weight: 500;
+    font-weight: 300;
     font-size: 48px;
     position: relative;
     z-index: 99;
 
     @media screen and (max-width: 768px) {
         margin: 0 auto;
-        padding-top: 2rem;
+        padding-top: 4rem;
         width: 100%;
         display: block;
         text-align: center;
@@ -50,20 +51,25 @@ export const ThinSpan = styled.span`
     font-weight: 400;
 `
 
-export const AboutBody = styled.p`
-    font-weight: 400;
-    font-size: 24px;
+export const AboutBody = styled.div`
+    color: #fff;
+    font-size: 16px;
     position: relative;
     z-index: 99;
 
     @media screen and (max-width: 768px) {
-        padding-bottom: 10rem;
+        padding-bottom: 4rem;
     }
+`
+
+export const AboutP = styled.p`
+    font-weight: 300;
+    padding: 1rem 0;
 `
 
 export const AboutImageContainer = styled.div`
     width: 40%;
-    height: auto;
+    height: 100%;
     margin-right: 5%;
     //margin-top: 8rem;
     //margin-bottom: 8rem;
@@ -79,19 +85,16 @@ export const AboutImageContainer = styled.div`
 
 export const AboutImage = styled.img`
     position: relative;
-    top: 2%;
-    width: 96%;
-    height: 96%;
+    width: 100%;
+    height: auto;
     display: block;
     margin: auto auto;
     z-index: 99;
 `
 
 export const AboutImageContainerM = styled.div`
-    border-radius: 5000px;
-    background: #6d71f9;
     width: 250px;
-    height: 250px;
+    height: auto;
     z-index: 98;
     align-items: center;
     justify-content: center;
@@ -106,11 +109,9 @@ export const AboutImageContainerM = styled.div`
 `
 
 export const AboutImageM = styled.img`
-    border-radius: 5000px;
+    width: 200px;
+    height: auto;
     position: relative;
-    top: 2%;
-    width: 96%;
-    height: 96%;
     display: block;
     margin: auto auto;
     z-index: 99;

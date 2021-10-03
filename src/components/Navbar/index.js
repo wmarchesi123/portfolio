@@ -26,16 +26,19 @@ const Navbar = ({ toggle }) => {
                     </MobileIcon>
                     <NavMenu>
                         <NavItem>
-                            <NavLinks to="home">Home</NavLinks>
+                            <NavLinks to="home" offset={-80} smooth={true} duration={1000}>Home</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to="portfolio">Portfolio</NavLinks>
+                            <NavLinks to="about" offset={-80} smooth={true} duration={1000}>About</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to="resume">Resume</NavLinks>
+                            <NavLinks to="portfolio" offset={-80} smooth={true} duration={1000}>Portfolio</NavLinks>
+                        </NavItem>
+                        <NavItem>
+                            <NavLinks to="experience" offset={-80} smooth={true} duration={1000}>Experience</NavLinks>
                         </NavItem>
                         <NavBtn>
-                            <NavBtnLink to="/contact">Contact</NavBtnLink>
+                            <NavBtnLink to="contact" offset={-80} smooth={true} duration={1000}>Contact</NavBtnLink>
                         </NavBtn>
                     </NavMenu>
                 </NavbarContainer>

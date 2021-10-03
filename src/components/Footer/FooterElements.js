@@ -1,6 +1,11 @@
 import styled from "styled-components";
+
+import { FaFileDownload, FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa'
+
 import { Link as LinkR } from 'react-router-dom'
 import { Link as LinkS } from 'react-scroll'
+
+
 
 export const FooterContainer = styled.div`
     width: 100%;
@@ -132,6 +137,30 @@ export const FooterLinkS = styled(LinkS)`
         margin: 0 auto;
         margin-bottom: 0.5rem;
     }
+`
+
+export const DownloadIcon = styled(FaFileDownload)`
+    padding-right: 10px;
+    height: 0.75rem;
+    width: auto;
+`
+
+export const GitHubIcon = styled(FaGithub)`
+    padding-right: 10px;
+    height: 0.75rem;
+    width: auto;
+`
+
+export const LinkedInIcon = styled(FaLinkedin)`
+    padding-right: 10px;
+    height: 0.75rem;
+    width: auto;
+`
+
+export const TwitterIcon = styled(FaTwitter)`
+    padding-right: 10px;
+    height: 0.75rem;
+    width: auto;
 `
 
 export const FooterRibbon = styled.div`
