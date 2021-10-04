@@ -1,5 +1,5 @@
 import React from 'react'
-import { SkillsContainer, SkillsH1, SkillsImage, SkillsImageContainer, SkillsTextContainer, SkillTag, SkillTagContainer } from './SkillsElements'
+import { SkillsContainer, SkillsH1, SkillsTextContainer, SkillTag, SkillTagContainer } from './SkillsElements'
 
 const Skills = () => {
     return (
@@ -27,6 +27,25 @@ const Skills = () => {
                 <SkillTag>GitHub Desktop</SkillTag>
                 <SkillTag>Visual Studio Code</SkillTag>
                 <SkillTag>Git CLI</SkillTag>
+            </SkillTagContainer>
+
+            <br /><br />
+
+            <SkillsTextContainer>
+                <SkillsH1><span name="relatedcourses"></span>Related Courses</SkillsH1>
+            </SkillsTextContainer>
+
+            <SkillTagContainer>
+                <SkillTag>Databases</SkillTag>
+                <SkillTag>Computer Organization</SkillTag>
+                <SkillTag>Data Structures</SkillTag>
+                <SkillTag>Network Programming</SkillTag>
+                <SkillTag>Mobile App Development</SkillTag>
+                <SkillTag>Programming Languages</SkillTag>
+                <SkillTag>Cybersecurity Management</SkillTag>
+                <SkillTag>Security Principles</SkillTag>
+                <SkillTag>Algorithms</SkillTag>
+                <SkillTag>System Administration</SkillTag>
             </SkillTagContainer>
         </SkillsContainer>
     )

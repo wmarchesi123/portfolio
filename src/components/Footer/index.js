@@ -1,5 +1,5 @@
 import React from 'react'
-import { FooterColumn, FooterContainer, FooterRibbonLinkOut, FooterRibbon, StampLogo, FooterLinkOut, FooterDetail, FooterLinkS, FooterLinkR, FooterSpacer, DownloadIcon, LinkedInIcon, GitHubIcon, TwitterIcon } from './FooterElements'
+import { FooterColumn, FooterContainer, FooterRibbonLinkOut, FooterRibbon, StampLogo, FooterLinkOut, FooterDetail, FooterLinkS, FooterSpacer, DownloadIcon, LinkedInIcon, GitHubIcon, TwitterIcon } from './FooterElements'
 
 const Footer = () => {
     return (
@@ -16,6 +16,7 @@ const Footer = () => {
                     <FooterLinkS to="home" offset={-80} smooth={true} duration={1000}>Home</FooterLinkS>
                     <FooterLinkS to="about" offset={-80} smooth={true} duration={1000}>About</FooterLinkS>
                     <FooterLinkS to="skills" offset={-80} smooth={true} duration={1000}>Skills</FooterLinkS>
+                    <FooterLinkS to="relatedcourses" offset={-80} smooth={true} duration={1000}>Related Courses</FooterLinkS>
                     <FooterLinkS to="portfolio" offset={-80} smooth={true} duration={1000}>Portfolio</FooterLinkS>
                     <FooterLinkOut target="_blank" href="/rvutrackdownload">RVU Track Beta (iOS)</FooterLinkOut>
                     {/* <FooterLinkR to="/personalsite">Personal Website</FooterLinkR> */}

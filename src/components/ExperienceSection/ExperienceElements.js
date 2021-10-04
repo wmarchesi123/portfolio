@@ -25,3 +25,63 @@ export const ExperienceH1 = styled.h1`
     width: 100%;
     text-align: center;
 `
+
+export const ExperienceBody = styled.div`
+    margin: 0 5%;
+`
+
+export const EmployerContainer = styled.div`
+    color: #fff;
+    background-color: #282948;
+    border-radius: 2rem;
+    padding: 1rem 2rem;
+    margin: 2rem 0;
+    padding-bottom: 2rem;
+`
+
+export const PositionConatiner = styled.div`
+
+`
+
+export const EmployerHeading = styled.a`
+    font-size: 36px;
+    text-decoration: underline;
+    font-weight: 400;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+
+    &:visited {
+        color: #fff;
+    }
+    
+    &:hover {
+        transition: all 0.2s ease-in-out;
+        color: #55cff9;
+        background-color: transparent;
+    }
+`
+export const EmployerDates = styled.h2`
+    font-size: 20px;
+    font-weight: 500;
+`
+
+export const PositionTitle = styled.h2`
+    margin-top: 1rem;
+    font-size: 24px;
+    font-weight: 400;
+`
+
+export const PositionDates = styled.h2`
+    font-size: 20px;
+    font-weight: 400;
+`
+
+export const DetailList = styled.ul`
+    
+`
+
+export const DetailBullet = styled.li`
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 2rem;
+`
