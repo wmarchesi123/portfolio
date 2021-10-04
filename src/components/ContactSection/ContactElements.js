@@ -28,9 +28,14 @@ export const ContactH1 = styled.h1`
 
 export const LinkContainer = styled.div`
     margin-top: 2rem;
+    padding: 0 5%;
     width: 100%;
     justify-content: space-between;
     display: flex;
+
+    @media screen and (max-width: 768px) {
+        display: block;
+    }
 `
 
 export const Link = styled.a`
@@ -48,14 +53,20 @@ export const Link = styled.a`
     font-weight: 300;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
-
+ 
     &:visited {
-        color: inherit;
+        color: #fff;
     }
     
     &:hover {
         transition: all 0.2s ease-in-out;
         color: #282948;
         background-color: transparent;
+    }
+
+    @media screen and (max-width: 768px) {
+        display: block;
+        width: 100%;
+        margin-bottom: 1rem;
     }
 `

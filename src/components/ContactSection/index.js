@@ -8,7 +8,7 @@ const Contact = () => {
 
             <LinkContainer>
                 <Link href="mailto:will@williammarchesi.com">Email Me</Link>
-                <Link href="mailto:will@williammarchesi.com">Download My Resume</Link>
+                <Link target="_blank" href="/resume">Download My Resume</Link>
             </LinkContainer>
             
         </ContactContainer>

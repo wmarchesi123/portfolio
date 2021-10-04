@@ -17,15 +17,15 @@ const Footer = () => {
                     <FooterLinkS to="about" offset={-80} smooth={true} duration={1000}>About</FooterLinkS>
                     <FooterLinkS to="skills" offset={-80} smooth={true} duration={1000}>Skills</FooterLinkS>
                     <FooterLinkS to="portfolio" offset={-80} smooth={true} duration={1000}>Portfolio</FooterLinkS>
-                    <FooterLinkR>RVU Track (iOS)</FooterLinkR>
-                    <FooterLinkR>Personal Website</FooterLinkR>
+                    <FooterLinkOut target="_blank" href="/rvutrackdownload">RVU Track Beta (iOS)</FooterLinkOut>
+                    {/* <FooterLinkR to="/personalsite">Personal Website</FooterLinkR> */}
                     <FooterLinkS to="experience" offset={-80} smooth={true} duration={1000}>Experience</FooterLinkS>
                     <FooterLinkS to="contact" offset={-80} smooth={true} duration={1000}>Contact</FooterLinkS>
                 </FooterColumn>
 
                 <FooterColumn>
                     <FooterSpacer />
-                    <FooterLinkOut target="_blank" href="/">
+                    <FooterLinkOut target="_blank" href="https://firebasestorage.googleapis.com/v0/b/william-marchesi.appspot.com/o/WilliamMarchesi_Resume.pdf?alt=media&token=a14cab67-1352-4a32-a564-62da3d403a54">
                         <DownloadIcon />
                         Resume PDF Download
                     </FooterLinkOut>
