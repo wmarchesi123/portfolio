@@ -77,11 +77,18 @@ export const PositionDates = styled.h2`
 `
 
 export const DetailList = styled.ul`
-    
+    position: relative;
+	list-style: none;
 `
 
 export const DetailBullet = styled.li`
     font-size: 18px;
     font-weight: 400;
     margin-left: 2rem;
+
+    &:before {
+        content: "-";
+	    position: absolute;
+	    left: 0;
+    }
 `
