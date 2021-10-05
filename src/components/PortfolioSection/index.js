@@ -42,16 +42,13 @@ const PortfolioSection = () => {
                         <PortfolioElementImageM src="https://firebasestorage.googleapis.com/v0/b/william-marchesi.appspot.com/o/portfolioScreenshot.jpg?alt=media&token=48e51883-0f3c-42af-8f6d-1e736bb86c48" />
 
                         <PortfolioElementP>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            A few weeks ago, thinking about how I could best set myself apart from other students and job applicants, I decided it would be good to build a website to showcase my skills and experience.
                         </PortfolioElementP>
                         <PortfolioElementP>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            In addition, I developed the site in about a week, with myself going from knowing no React.js to having a fully functioning portfolio I can be proud to show prospective employers. While I already was proficient in HTML, CSS, and PHP, I thought it would be best to showcase my ability to adapt to a new environment and language and apply my previous knowledge to the challenge in front of me.
                         </PortfolioElementP>
                         <PortfolioElementP>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        </PortfolioElementP>
-                        <PortfolioElementP>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            Below, anyone can view the public GitHub repository for the site to follow along with my week of development. Going forward, I will continue to refine and improve this site to showcase my current position and experience.
                         </PortfolioElementP>
 
                         <SpanGap />
