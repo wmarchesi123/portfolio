@@ -68,5 +68,6 @@ export const Link = styled.a`
         display: block;
         width: 100%;
         margin-bottom: 1rem;
+        font-size: 24px;
     }
 `

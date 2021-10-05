@@ -63,8 +63,13 @@ export const AboutBody = styled.div`
 `
 
 export const AboutP = styled.p`
-    font-weight: 300;
+    font-size: 18px;
+    font-weight: 400;
     padding: 1rem 0;
+
+    @media screen and (max-width: 768px) {
+        font-size: 16px;
+    }
 `
 
 export const AboutImageContainer = styled.div`

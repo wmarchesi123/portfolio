@@ -24,6 +24,8 @@ export const ExperienceH1 = styled.h1`
     z-index: 99;
     width: 100%;
     text-align: center;
+
+    
 `
 
 export const ExperienceBody = styled.div`
@@ -59,21 +61,37 @@ export const EmployerHeading = styled.a`
         color: #55cff9;
         background-color: transparent;
     }
+
+    @media screen and (max-width: 768px) {
+        font-size: 30px;
+    }
 `
 export const EmployerDates = styled.h2`
     font-size: 20px;
     font-weight: 500;
+
+    @media screen and (max-width: 768px) {
+        font-size: 18px;
+    }
 `
 
 export const PositionTitle = styled.h2`
     margin-top: 1rem;
     font-size: 24px;
     font-weight: 400;
+
+    @media screen and (max-width: 768px) {
+        font-size: 18px;
+    }
 `
 
 export const PositionDates = styled.h2`
     font-size: 20px;
     font-weight: 400;
+
+    @media screen and (max-width: 768px) {
+        font-size: 16px;
+    }
 `
 
 export const DetailList = styled.ul`
@@ -82,7 +100,7 @@ export const DetailList = styled.ul`
 `
 
 export const DetailBullet = styled.li`
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     margin-left: 2rem;
 
