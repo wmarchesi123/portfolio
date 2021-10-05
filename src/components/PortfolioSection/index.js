@@ -14,16 +14,16 @@ const PortfolioSection = () => {
                         <PortfolioElementImageM src="https://firebasestorage.googleapis.com/v0/b/william-marchesi.appspot.com/o/rvuTrackScreenshot.jpg?alt=media&token=13e7a264-9f10-4395-a18a-8213c0ce1417" />
 
                         <PortfolioElementP>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            The application, RVU Track, is designed to give physicians, pain physicians to start, a way to easily track procedures they complete and the assigned revenue it earns.
                         </PortfolioElementP>
                         <PortfolioElementP>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            When a patient visits the doctor or hospital, every procedure done has an assigned CPT (Current Procedural Terminology) code determined by the Department of Health and Human Services division the Center for Medicare and Medicaid Services.
                         </PortfolioElementP>
                         <PortfolioElementP>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        This code, combined with variables like where the doctor performed the procedure, is used to calculate the procedure's RVU (Relative Value Unit). Invisible to patients (most of the time), this is done behind the scenes by hospitals and insurance giants to facilitate medical billing.
                         </PortfolioElementP>
                         <PortfolioElementP>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        RVU Track's purpose is to make this practice more accessible for physicians to track independently without dealing with hospital management.
                         </PortfolioElementP>
 
                         <SpanGap />

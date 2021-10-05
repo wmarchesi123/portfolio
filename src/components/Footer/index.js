@@ -26,7 +26,7 @@ const Footer = () => {
 
                 <FooterColumn>
                     <FooterSpacer />
-                    <FooterLinkOut target="_blank" href="https://firebasestorage.googleapis.com/v0/b/william-marchesi.appspot.com/o/WilliamMarchesi_Resume.pdf?alt=media&token=a14cab67-1352-4a32-a564-62da3d403a54">
+                    <FooterLinkOut target="_blank" href="/resume">
                         <DownloadIcon />
                         Resume PDF Download
                     </FooterLinkOut>

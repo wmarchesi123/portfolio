@@ -23,7 +23,7 @@ function RVUTrackDownload() {
 }
 
 function ResumeDownload() {
-  window.location.href = "https://firebasestorage.googleapis.com/v0/b/william-marchesi.appspot.com/o/WilliamMarchesi_Resume.pdf?alt=media&token=4e29d685-5614-4e54-b63d-0068bf05e36d";
+  window.location.href = "https://firebasestorage.googleapis.com/v0/b/william-marchesi.appspot.com/o/WilliamMarchesi_Resume.pdf?alt=media&token=2b28c558-be22-4989-9b29-bf6c94f09902";
   return <p>Redirecting...</p>;
 }
 

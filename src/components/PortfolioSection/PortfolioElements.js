@@ -100,6 +100,7 @@ export const PortfolioElementImageM = styled.img`
     object-fit: cover;
     border: solid 2px;
     border-radius: 2rem;
+    margin-bottom: 2rem;
 
     @media screen and (max-width: 1080px) {
         display: block;
@@ -114,7 +115,7 @@ export const PortfolioElementH1 = styled.h1`
 `
 
 export const PortfolioElementGoButton = styled.a`
-    margin-top: 5rem;
+    //margin-top: 5rem;
     align-items: center;
     text-align: center;
     width: 45%;
