@@ -7,7 +7,7 @@ const About = () => {
             <AboutTextContainer>
                 <AboutH1>About</AboutH1>
                 <AboutBody>
-                    <AboutP>In fifth or sixth grade, I signed up for a club that would go on to shape the rest of my life, the SeaPerch competition facilitated at our middle school by Portsmouth Naval Shipyard and UN¬H. This club and my enduring love for technology solidified that I wanted to work with computers and technology later in my life.</AboutP>
+                    <AboutP>In fifth or sixth grade, I signed up for a club that would go on to shape the rest of my life, the SeaPerch competition facilitated at our middle school by Portsmouth Naval Shipyard and UNH. This club and my enduring love for technology solidified that I wanted to work with computers and technology later in my life.</AboutP>
                     <AboutP>The following steps in my journey towards a career in computer science were my membership in the Dover middle and high school robotics team. In middle school, this meant one of the school’s two FTC teams, and in high school, I would eventually be captain of the Dover Shockwave Robotics Team.</AboutP>
                     <AboutP>These experiences throughout my middle and high school career fueled my love for technology, learning, and exposing myself to as many new and emerging technologies as I could.</AboutP>
                 </AboutBody>

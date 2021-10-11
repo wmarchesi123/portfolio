@@ -51,6 +51,7 @@ export const EmployerHeading = styled.a`
     font-weight: 400;
     transition: all 0.2s ease-in-out;
     cursor: pointer;
+    color: #fff;
 
     &:visited {
         color: #fff;
