@@ -54,9 +54,10 @@ export const LinkOut = styled.a`
     cursor: pointer;
     text-decoration: none;
     transition: all 0.2s ease-in-out;
+    color: #282948;
 
     &:visited {
-        color: inherit;
+        color: #282948;
     }
     
     &:hover {

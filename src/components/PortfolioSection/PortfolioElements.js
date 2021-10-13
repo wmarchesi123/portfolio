@@ -81,7 +81,8 @@ export const PortfolioElementP = styled.p`
 export const PortfolioElementImage = styled.img`
     margin: 0 auto;
     position: relative;
-    width: 40%;
+    max-height: 1000px;
+    max-width: 40%;
     height: auto;
     object-fit: cover;
     border: solid 2px;
